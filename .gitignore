@@ -1,0 +1,10 @@
+.vs
+Bin
+Intermediate
+*.pdb
+.idea
+**/*/.idea
+**/*/*.user
+**/*/*.suo
+*.mdmp
+*.lib
