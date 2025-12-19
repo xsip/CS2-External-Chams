@@ -3,10 +3,8 @@
 **External chams implementation for Counter-Strike 2 using External VTable hooking and material system manipulation**
 
 ---
-
-## Preview ( YouTube )
-
-[![CS2 Chams Demo](https://img.youtube.com/vi/7CccI0PBaG4/maxres1.jpg)](https://www.youtube.com/watch?v=7CccI0PBaG4)
+[Watch on YouTube](https://www.youtube.com/watch?v=7CccI0PBaG4)
+![CS2 Chams Demo](https://img.youtube.com/vi/7CccI0PBaG4/maxres1.jpg)
 
 ---
 
