@@ -1,7 +1,7 @@
-﻿#include <CS2/CMaterialSystem2.h>
-#include <CS2/CKeyValues3.h>
-#include <CS2/Interfaces.h>
-#include <CS2/CStrongHandle.h>
+﻿#include <CS2/Interfaces/CMaterialSystem2.h>
+#include <CS2/SDK/CKeyValues3.h>
+#include <CS2/Interfaces/Manager.h>
+#include <CS2/SDK/CStrongHandle.h>
 
 #include <GlobalData/Include.h>
 using namespace Globals;

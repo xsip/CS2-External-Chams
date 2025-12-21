@@ -1,8 +1,8 @@
 #include <External/Include.h>
 
-#include <CS2/Interfaces.h>
-#include <CS2/CAnimatableSceneObjectDesc.h>
-#include <CS2/CMaterialSystem2.h>
+#include <CS2/Interfaces/Manager.h>
+#include <CS2/SDK/CAnimatableSceneObjectDesc.h>
+#include <CS2/Interfaces/CMaterialSystem2.h>
 
 #include <cmath>
 

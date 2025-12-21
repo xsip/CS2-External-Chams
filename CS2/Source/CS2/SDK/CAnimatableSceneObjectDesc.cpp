@@ -1,6 +1,6 @@
-#include <CS2/CAnimatableSceneObjectDesc.h>
-#include <CS2/CBaseSceneData.h>
-#include <CS2/CStrongHandle.h>
+#include <CS2/SDK/CAnimatableSceneObjectDesc.h>
+#include <CS2/SDK/CBaseSceneData.h>
+#include <CS2/SDK/CStrongHandle.h>
 #include <GlobalData/Include.h>
 #include <string>
 

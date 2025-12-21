@@ -147,16 +147,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Include\CS2\CAnimatableSceneObjectDesc.h" />
-    <ClInclude Include="Include\CS2\CBaseSceneData.h" />
-    <ClInclude Include="Include\CS2\CKeyValues3.h" />
-    <ClInclude Include="Include\CS2\CStrongHandle.h" />
-    <ClInclude Include="Include\CS2\Interfaces.h" />
-    <ClInclude Include="Include\CS2\CMaterialSystem2.h" />
+    <ClInclude Include="Include\CS2\SDK\CAnimatableSceneObjectDesc.h" />
+    <ClInclude Include="Include\CS2\SDK\CBaseSceneData.h" />
+    <ClInclude Include="Include\CS2\SDK\CKeyValues3.h" />
+    <ClInclude Include="Include\CS2\SDK\CStrongHandle.h" />
+    <ClInclude Include="Include\CS2\Interfaces\Manager.h" />
+    <ClInclude Include="Include\CS2\Interfaces\CMaterialSystem2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\CS2\CAnimatableSceneObjectDesc.cpp" />
-    <ClCompile Include="Source\CS2\CMaterialSystem2.cpp" />
+    <ClCompile Include="Source\CS2\SDK\CAnimatableSceneObjectDesc.cpp" />
+    <ClCompile Include="Source\CS2\Interfaces\CMaterialSystem2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

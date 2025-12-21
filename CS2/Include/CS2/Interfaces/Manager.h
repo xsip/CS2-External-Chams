@@ -19,9 +19,8 @@ namespace CS2 {
 		}
 
 		inline static void Initialize() {
-			pMaterialSystem = CInterfaceManager::CreateInterface<CMaterialSystem2>("materialsystem2.dll", "VMaterialSystem2_001");
-			
-			CInterfaceManager::LogAll();
+			pMaterialSystem = CreateInterface<CMaterialSystem2>("materialsystem2.dll", "VMaterialSystem2_001");
+			LogAll();
 		}
 
 		inline static void LogAll() {
