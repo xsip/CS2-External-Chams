@@ -147,6 +147,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Include\CS2\Interfaces\CGameEntitySystem.h" />
+    <ClInclude Include="Include\CS2\Interfaces\CGameResourceService.h" />
     <ClInclude Include="Include\CS2\SDK\CAnimatableSceneObjectDesc.h" />
     <ClInclude Include="Include\CS2\SDK\CBaseHandle.h" />
     <ClInclude Include="Include\CS2\SDK\CBaseSceneData.h" />
@@ -156,6 +158,8 @@
     <ClInclude Include="Include\CS2\Interfaces\CMaterialSystem2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\CS2\Interfaces\CGameResourceService.cpp" />
+    <ClCompile Include="Source\CS2\Interfaces\Manager.cpp" />
     <ClCompile Include="Source\CS2\SDK\CAnimatableSceneObjectDesc.cpp" />
     <ClCompile Include="Source\CS2\Interfaces\CMaterialSystem2.cpp" />
   </ItemGroup>

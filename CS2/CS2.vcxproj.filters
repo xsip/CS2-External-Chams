@@ -36,12 +36,24 @@
     <ClInclude Include="Include\CS2\SDK\CBaseHandle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Include\CS2\Interfaces\CGameResourceService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CS2\Interfaces\CGameEntitySystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\CS2\SDK\CAnimatableSceneObjectDesc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\CS2\Interfaces\CMaterialSystem2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CS2\Interfaces\CGameResourceService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CS2\Interfaces\Manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
