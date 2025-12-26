@@ -3,7 +3,9 @@
 #include <CS2/Interfaces/Manager.h>
 #include <CS2/SDK/CAnimatableSceneObjectDesc.h>
 #include <CS2/Interfaces/CMaterialSystem2.h>
-
+#include <CS2/Interfaces/CGameEntitySystem.h>
+#include <CS2/Interfaces/CGameResourceService.h>
+#include <CS2/SDK/CBaseHandle.h>
 #include <cmath>
 
 namespace Globals {
@@ -16,7 +18,7 @@ using namespace CS2;
 int main(int argc, char* argv[]) {
 	SetConsoleTitle("xsip's external cs2 chams");
 	I::Initialize();
-
+	
 	auto hLatexChamsMaterial = I::pMaterialSystem->CreateMaterial(CMaterialSystem2::GetLatexChams(), "LatexChamsMaterial");
 
 	if (!hLatexChamsMaterial) {
