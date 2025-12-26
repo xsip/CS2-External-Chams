@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\CS2\SDK\CAnimatableSceneObjectDesc.h" />
+    <ClInclude Include="Include\CS2\SDK\CBaseHandle.h" />
     <ClInclude Include="Include\CS2\SDK\CBaseSceneData.h" />
     <ClInclude Include="Include\CS2\SDK\CKeyValues3.h" />
     <ClInclude Include="Include\CS2\SDK\CStrongHandle.h" />

@@ -1,6 +1,6 @@
 #pragma once
 #include <cstdint>
-
+#include <CS2/SDK/CBaseHandle.h>
 namespace CS2 {
 
     class CSceneObject
@@ -8,13 +8,11 @@ namespace CS2 {
     private:
         char pad_0000[0xB8];
     public:
-        uint8_t r;
-        uint8_t g;
-        uint8_t b;
-        uint8_t a;
+        Source2::CBaseHandle<uintptr_t> m_hOwner;
     private:
         char pad_00BC[0xC4];
     };
+    static_assert(sizeof(CSceneObject) == 0x180);
 
     class CBaseSceneData
     {

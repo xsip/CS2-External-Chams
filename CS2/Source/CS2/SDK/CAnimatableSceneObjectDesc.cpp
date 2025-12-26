@@ -123,7 +123,7 @@ namespace CS2 {
 
         uint64_t originalFunc = proc.ReadDirect<uint64_t>(m_pTargetFunction);
         g_pOriginalRenderObjects = reinterpret_cast<void*>(originalFunc);
-
+        printf("OriginalFunc: 0x%p\n", originalFunc);
 
         m_pDataRemote = proc.Alloc(sizeof(CAnimatableSceneObjectDescRenderHookData));
         if (!m_pDataRemote) {
