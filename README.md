@@ -1,5 +1,5 @@
 # CS2 External Chams
-
+# Outdated !! - Checkout [xsip/PureLiquid-CS2-External](https://github.com/xsip/PureLiquid-CS2-External) for a working version.
 **External chams implementation for Counter-Strike 2 using External VTable hooking and material system manipulation**
 
 ---
